@@ -1,1 +1,78 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:skyblue;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:white;
+  font-weight:bold;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:skyblue;
+  color:white;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+</style>
+</head>
+
+<body style="font-family:Verdana;color:black;">
+
+<div style="background-color:skyblue;color:white;padding:15px;text-align:center;">
+  <h1>Machine Learning</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Preprocessing</a>
+    <a href="#">Dimensionality Reduction</a>
+    <a href="#">Model Selection</a>
+    <a href="#">Regression</a>
+    <a href="#">Classification</a>
+    <a href="#">Clustering</a>
+  </div>
+
+  <div class="main">
+    <h2>Adam Finkle</h2>
+    <p>Click the links to view live Jupyter Notebooks applying the labeled steps to the Iris Dataset.</p>
+  </div>
+
+  <div class="right">
+    <h2>Libraries</h2>
+    <li>scikit-learn</li>
+    <li>Pandas</li>
+    <li>SciPy</li>
+    <li>NumPy</li>
+  </div>
+</div>
+
+</body>
+</html>
