@@ -27,8 +27,10 @@
 }
 .main {
   float:left;
+  margin-left:auto;
+  margin-right:auto;
   width:60%;
-  padding:0 20px;
+  padding:20px;
 }
 .right {
   background-color:skyblue;
@@ -40,6 +42,13 @@
   text-align:center;
 }
 
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  .menu {width:25%;}
+  .main{width:50%;}
+  .right {width:25%;}
+}
+    
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
   .menu, .main, .right {
