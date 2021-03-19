@@ -1,88 +1,116 @@
-<!DOCTYPE html>
-<html lang = "en-US">
-<head>
-<style>
-* {
-  box-sizing: border-box;
-  border-radius: 4px;
-}
-.menu {
-  float:left;
-  width:20%;
-  text-align:center;
-}
-.menu a {
-  background-color:skyblue;
-  padding:8px;
-  margin-top:7px;
-  display:block;
-  width:100%;
-  color:white;
-  font-weight:bold;
-  text-decoration: none;
-}
-.menu a:hover{
-  background-color: navy;
-  color: white;
-}
-.main {
-  float:left;
-  margin-left:auto;
-  margin-right:auto;
-  width:60%;
-  padding:20px;
-}
-.right {
-  background-color:skyblue;
-  color:white;
-  float:left;
-  width:20%;
-  padding:15px;
-  margin-top:7px;
-  text-align:center;
-}
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-@media only screen and (max-width:800px) {
-  /* For tablets: */
-  .menu {width:25%;}
-  .main{width:50%;}
-  .right {width:25%;}
-}
-    
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width:100%;
-  }
-}
-</style>
-<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
-</head>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Subjects</a></li>
+							<li><a href="#three">Get in touch</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-<body style="font-family:Verdana;color:black;background-color:white">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<div style="background-color:skyblue;color:white;padding:15px;text-align:center;">
-  <h1>Portfolio</h1>
-</div>
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Portfolio</h1>
+							<p>Adam Finkle</a></p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
 
-<div style="overflow:auto">
-    
-  <div class="menu">
-    <a href="html/machine_learning.html">Machine Learning</a>
-  </div>
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/machine_learning.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Machine Learning</h2>
+									<p>An introduction with scikit-learn examples.</p>
+									<ul class="actions">
+										<li><a href="machine_learning.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/simulations.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Simulations</h2>
+									<p>Computational science in SciPy and Julia.</p>
+									<ul class="actions">
+										<li><a href="simulations.html" class="button">Learn more</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
 
-  <div style="text-align:center" class="main">
-    <h2>Adam Finkle</h2>
-    <p>Click any topic to a view page about it!</p>
-  </div>
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>Reach me on GitHub or LinkedIn</p>
+							<div class="split style1">
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
 
-  <div class="right">
-    <h2>Contact</h2>
-    <li>github</li>
-  </div>
-    
-</div>
+			</div>
 
-</body>
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+					  <li>&copy; Hyperspace. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					  <li>&copy; Machine learning photo by <a href="/photographer/Mattox-60059">St. Mattox</a> from <a href="https://freeimages.com/">FreeImages</a></li>
+					  <li>&copy; Simulations photo by <a href="/photographer/rgvmonster-46532">jason aaberg</a> from <a href="https://freeimages.com/">FreeImages</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
-
